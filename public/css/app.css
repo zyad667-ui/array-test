@@ -118,9 +118,10 @@ nav>button,
     background-color: blue;
     padding: 3rem;
     color: white;
-    margin-top: 2rem ;
+    margin-top: 2rem;
 }
-.text-sect-4{
+
+.text-sect-4 {
     text-align: center;
     padding: 1rem;
 }
@@ -128,14 +129,29 @@ nav>button,
 
 .pourcent {
     display: flex;
-    text-align: center;text-align: center;gap: 10VW;
+    text-align: center;
+    text-align: center;
+    gap: 10VW;
 }
-.pou{
+
+.pou {
     font-size: 58px;
     color: white;
 
 }
-.know_more{
+
+.know_more {
     margin-top: 1rem;
     color: red;
+}
+
+.main-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.p-5{
+    display: flex;flex-direction: column;gap:30px
 }
