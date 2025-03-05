@@ -54,6 +54,7 @@ nav>button,
     flex-direction: column;
     margin-top: 7vh;
     background-color: #f5f5fc;
+    padding: 2rem;
 }
 
 .welcome-info {
@@ -113,17 +114,28 @@ nav>button,
 .sect-4 {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
+    background-color: blue;
+    padding: 3rem;
+    color: white;
+    margin-top: 2rem ;
+}
+.text-sect-4{
+    text-align: center;
+    padding: 1rem;
 }
 
-.container-sect-4 ,.text-sect-4 {
-    justify-items: center;margin-bottom: 5vh;
-}
 
 .pourcent {
     display: flex;
     text-align: center;text-align: center;gap: 10VW;
 }
 .pou{
-    font-size: xXx-large;color: violet;
+    font-size: 58px;
+    color: white;
+
+}
+.know_more{
+    margin-top: 1rem;
+    color: red;
 }
