@@ -81,3 +81,49 @@ nav>button,
 .p-center {
     width: 20vw;
 }
+
+.charts-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    text-align: center;
+}
+
+.charts-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+    text-align: center;
+}
+
+.m-contente {
+    justify-items: center;
+    margin-top: 8vh;
+}
+
+.p-content {
+    text-align: center;
+    width: 20vw;
+    text-align: justify;
+}
+
+.sect-4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.container-sect-4 ,.text-sect-4 {
+    justify-items: center;margin-bottom: 5vh;
+}
+
+.pourcent {
+    display: flex;
+    text-align: center;text-align: center;gap: 10VW;
+}
+.pou{
+    font-size: xXx-large;color: violet;
+}
