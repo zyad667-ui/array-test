@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+nav {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container>h1 {
+    font-size: large;
+    color: blueviolet;
+}
+
+nav>button,
+.registre {
+    background-color: blueviolet;
+    color: white;
+    border: solid 1px blueviolet;
+    border-radius: 5px;
+    padding: 0.35vw;
+
+}
+
+.hero-container {
+    justify-items: center;
+}
+
+.hero-info {
+    justify-items: center;
+}
+
+.registre {
+    padding: 0.5vw 2.5vw;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    background-color: #f5f5fc;
+}
+
+.welcome-info {
+    justify-items: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+}
+
+.wrap {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.p-center {
+    width: 20vw;
+}
